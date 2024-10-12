@@ -110,6 +110,23 @@ footer {
     margin: 10px;
 }
 
+#section-dogfact {
+    display: flex;
+    flex-direction: column;
+}
+
+#img-chien {
+    width: 50px;
+    margin: 10px;
+}
+
+#dog-fact {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 @media (min-width: 768px) {
     
     body * {
